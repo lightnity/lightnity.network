@@ -1,45 +1,10 @@
-<script lang="ts">
-	import Header from '$lib/header/Header.svelte';
-	import '../app.css';
+<script>
+	import '$lib/styles/style.css';
+	import Header from '$lib/components/Header.svelte';
 </script>
 
-<Header />
-
-<main>
+<div class="bg-gradient-to-t from-primary-light to-secondary-light dark:bg-gradient-to-b dark:from-primary-dark dark:to-secondary-dark">
+	<Header />
 	<slot />
-</main>
-
-<footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-</footer>
-
-<style>
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 1024px;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
-	}
-</style>
+	<footer>Hello, I'm the footer.</footer>
+</div>
