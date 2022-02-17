@@ -5,18 +5,18 @@ module.exports = {
 			gradientColorStops: (theme) => ({
 				primary: {
 					light: '#D3C3DA',
-					dark: '#1D0022'
+					dark: '#1a0e28'
 				},
 				secondary: {
 					light: '#F8E8E0',
-					dark: '#070021'
+					dark: '#20132f'
 				}
 			})
 		},
 		colors: {
 			primary: {
 				light: '#FF5C00',
-				dark: '#FFB69F'
+				dark: '#8d55fe'
 			},
 			secondary: {
 				light: '#b5651d',
