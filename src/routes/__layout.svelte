@@ -3,7 +3,7 @@
 	import Header from '$lib/components/Header.svelte';
 </script>
 
-<div class="flex-col bg-gradient-to-t from-primary-light to-secondary-light dark:bg-gradient-to-b dark:from-primary-dark dark:to-secondary-dark">
+<div class="overflow-x-hidden flex-col bg-gradient-to-t from-primary-light to-secondary-light dark:bg-gradient-to-b dark:from-primary-dark dark:to-secondary-dark">
 	<Header />
 	<slot />
 	<footer>Hello, I'm the footer.</footer>
