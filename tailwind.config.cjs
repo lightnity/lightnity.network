@@ -5,7 +5,7 @@ module.exports = {
 			gradientColorStops: (theme) => ({
 				primary: {
 					light: '#D3C3DA',
-					dark: '#1a0e28'
+					dark: '#1D0034'
 				},
 				secondary: {
 					light: '#F8E8E0',
@@ -15,7 +15,7 @@ module.exports = {
 		},
 		colors: {
 			primary: {
-				light: '#FF5C00',
+				light: '#9f4eab',
 				dark: '#8d55fe'
 			},
 			secondary: {
